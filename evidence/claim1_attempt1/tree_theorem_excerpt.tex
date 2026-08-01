@@ -1,0 +1,77 @@
+\begin{definition}[non-decreasing-$\gamma_k$-Littlestone tree]\label{def:monotone-gamma-littlestone}
+Fix a non-decreasing sequence $(\gamma_k)_{k\ge1}$ with $\gamma_k\to\infty$.
+A \emph{non-decreasing-$\gamma_k$-Littlestone tree for $\H$}
+(a metric-loss variant of the classical Littlestone
+tree~\citep{littlestone_learning_1988}; see
+also~\citet[Definition~1.7]{bousquet_theory_2021})
+is a rooted full
+binary tree whose internal nodes at depth $k$ are labeled by instances
+$x_{k,i}\in\X$, and whose two outgoing edges from each such node are labeled by
+$y_{k,i,1},y_{k,i,2}\in\Y$ satisfying $\ell(y_{k,i,1},y_{k,i,2})\ge\gamma_k$,
+with the property that every \emph{finite} root-to-leaf path is realizable by
+some $h\in\H$ (i.e., $h$ matches the edge labels along that finite path).
+\end{definition}
+
+\begin{definition}[realizable non-decreasing-$\gamma_k$-Littlestone tree]\label{def:realizable-monotone-gamma-littlestone}
+An \emph{infinite non-decreasing-$\gamma_k$-Littlestone tree} is
+a tree of infinite depth satisfying the conditions of
+Definition~\ref{def:monotone-gamma-littlestone} at every finite depth $k$.
+Such an infinite tree is \emph{realizable} if,
+in addition to finite-prefix realizability, every infinite root-to-leaf path
+has its entire labeling realized by a \emph{single} hypothesis in~$\H$ (i.e., for
+each infinite path there exists $h\in\H$ matching all edge labels along that
+path).
+\end{definition}
+
+\begin{lemma}[Bridging lemma: finite-prefix realizability implies
+  infinite-path realizability]\label{lem:bridging}
+Suppose $\H$ satisfies the measurability condition of
+\citet[Definition~3.3]{bousquet_theory_2021} with a \textbf{compact} parameter space
+$\Theta$ and a function $h\colon\Theta\times\X\to\Y$ that is \textbf{continuous in~$\theta$} (i.e., $\theta\mapsto h(\theta,x)$ is continuous for each fixed $x\in\X$).
+Then every infinite non-decreasing-$\gamma_k$-Littlestone tree
+(Definition~\ref{def:monotone-gamma-littlestone}) is automatically realizable
+(Definition~\ref{def:realizable-monotone-gamma-littlestone}).
+\end{lemma}
+\begin{proof}
+The proof follows from the finite-intersection property
+of compact spaces; see Appendix~\ref{app:compact-parameterization}.
+\end{proof}
+
+\begin{remark}\label{rem:compact-param}
+Lemma~\ref{lem:bridging} requires the compact-parameterization
+assumption (compact~$\Theta$, $h$ continuous in~$\theta$); we discuss in
+Appendix~\ref{app:compact-parameterization} why this assumption is
+necessary in general, give a concrete example where the two tree
+notions differ without it, and argue that the assumption is mild and
+covers virtually all settings of practical interest.
+\end{remark}
+
+\begin{theorem}[Main characterization]\label{thm:main-characterization}
+Assume $(\X,\rho)$ and $(\Y,\ell)$ are Polish, and $\H$ satisfies the
+measurability condition of \citet[Definition~3.3]{bousquet_theory_2021}
+with compact $\Theta$ and $h$ continuous in~$\theta$
+(cf.\ Lemma~\ref{lem:bridging}).
+Then the following are equivalent:
+\begin{enumerate}
+  \item There exists a (distribution-free) learning rule $\A$ such that for
+  every realizable distribution $\bmu$ on $\X\times\Y$,
+  the learned predictors $h_n:=\A(S_n)$ satisfy
+  \[
+    \risk_{\bmu}(h_n)\to 0 \qquad \text{almost surely as } n\to\infty.
+  \]
+  \item $\H$ admits no infinite non-decreasing-$(\gamma_k)$-Littlestone tree (for
+  any non-decreasing gap sequence $(\gamma_k)$ with $\gamma_k\to\infty$).
+\end{enumerate}
+
+\end{theorem}
+
+\begin{proof}
+$(1) \implies (2)$: Contrapositive: suppose an infinite
+  non-decreasing-$\gamma_k$-Littlestone tree exists
+  (Definition~\ref{def:monotone-gamma-littlestone}).  By
+  Lemma~\ref{lem:bridging}, the tree is automatically realizable
+  (Definition~\ref{def:realizable-monotone-gamma-littlestone}).
+  Theorem~\ref{thm:lower-bound} then shows that no learner can be
+  consistent.
+$(2) \implies (1)$: If no such obstruction exists, then the explicit learner constructed in
+  Section~\ref{subsec:realizable-learner} is strongly universally Bayes-consistent

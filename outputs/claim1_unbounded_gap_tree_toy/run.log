@@ -1,0 +1,27 @@
+{
+  "kind": "reduced_finite_depth_tree_toy",
+  "depth": 8,
+  "paths_checked": 256,
+  "gamma_sequence": [
+    8,
+    32,
+    128,
+    512,
+    2048,
+    8192,
+    32768,
+    131072
+  ],
+  "metric": "absolute_loss",
+  "all_paths_realizable": true,
+  "negative_control": {
+    "class": "L-Lipschitz functions on [0,1] after fixed first label",
+    "L": 3,
+    "max_later_legal_gap": 6,
+    "proposed_depth2_gap": 32,
+    "tree_extension_legal": false
+  },
+  "scope": "Finite executable version of the paper Appendix Example 1; not an infinite-tree or Bayes-consistency proof.",
+  "python": "3.14.5 (main, May 10 2026, 18:26:20) [GCC 16.1.1 20260430]",
+  "platform": "Linux-7.0.9-arch2-1-x86_64-with-glibc2.43"
+}

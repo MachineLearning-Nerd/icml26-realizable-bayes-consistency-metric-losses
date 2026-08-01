@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
   "openreview_id": "EmqsPzyNHh",
-  "phase": "claim_1_attempt_1_source_local_audit_complete",
-  "next_action": "launch_claim_1_direct_constructive_reproduction",
+  "phase": "claim_1_attempt_1_direct_constructive_toy_complete",
+  "next_action": "independent_review_claim_1_toy_then_advance_claim_2",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
     "live_contract_saved",
     "source_archive_and_pdf_pinned",
-    "claim_1_attempt_1_source_local_audit"
+    "claim_1_attempt_1_source_local_audit",
+    "claim_1_attempt_1_finite_unbounded_gap_tree_constructive_toy"
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
@@ -18,9 +19,18 @@
     "4": 0,
     "5": 0
   },
-  "last_checkpoint": "2026-08-01T18:30:38Z",
-  "last_known_git_commit": "236c574d799f2d5b862c49ad972d56a346c7f7e2",
+  "last_checkpoint": "2026-08-01T20:30:38Z",
+  "last_known_git_commit": "PENDING_COMMIT",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
-  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-EmqsPzyNHh-realizable-bayes-consistency-metric-losses"
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-EmqsPzyNHh-realizable-bayes-consistency-metric-losses",
+  "claim_1_outcome": {
+    "verdict": "toy",
+    "scope": "Finite depth-8 source-aligned unbounded-gap Littlestone tree witness under absolute metric loss with a Lipschitz tree-free negative control; not a theorem proof.",
+    "evidence": [
+      "outputs/claim1_unbounded_gap_tree_toy/result.json",
+      "outputs/claim1_unbounded_gap_tree_toy/SHA256SUMS",
+      "evidence/claim1_attempt1/tree_theorem_excerpt.tex"
+    ]
+  }
 }
