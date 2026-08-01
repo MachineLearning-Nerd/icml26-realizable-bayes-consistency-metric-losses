@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Theorem 4.5 gives a necessary and sufficient condition for realizable strong universal Bayes-consistency with general metric losses, characterized via an unbounded-gap Littlestone tree obstruction (Section 4, Theorem 4.5).",
+    "status": "unverified"
+  },
+  {
+    "text": "Definition 4.1 introduces infinite non-decreasing-\u03b3k-Littlestone trees, where the gap parameters \u03b3k diverge to infinity along the tree (Section 4, Definition 4.1).",
+    "status": "unverified"
+  },
+  {
+    "text": "Theorem 5.1 shows that if such an infinite non-decreasing-\u03b3k-Littlestone tree exists for a hypothesis class, then every learning algorithm has a realizable distribution on which the expected risk stays infinite for all sample sizes n (Section 5, Theorem 5.1).",
+    "status": "unverified"
+  },
+  {
+    "text": "Theorem 6.5 constructs an explicit distribution-free learner that, whenever no unbounded-gap Littlestone tree exists, achieves risk converging almost surely to zero for every realizable distribution (Section 6, Theorem 6.5).",
+    "status": "unverified"
+  },
+  {
+    "text": "Section 3 shows that a finite optimal risk R* < infinity is not sufficient for universal Bayes-consistency with general metric losses, resolving an open problem left by prior work (Section 3).",
+    "status": "unverified"
+  }
+]

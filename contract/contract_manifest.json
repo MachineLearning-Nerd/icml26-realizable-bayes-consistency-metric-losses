@@ -1,0 +1,21 @@
+{
+  "retrieved_at_utc": "2026-08-01T18:30:38Z",
+  "openreview_id": "EmqsPzyNHh",
+  "submission_number": 25054,
+  "title": "Realizable Bayes-Consistency for General Metric Losses",
+  "claim_count": 5,
+  "maximum_points": 10,
+  "claim_resolution": "claims_anchored.json overrides claims.json",
+  "source_urls": {
+    "snapshot": "file://outputs/live/20260801T183038Z",
+    "arxiv_source": "https://export.arxiv.org/e-print/2605.03823",
+    "arxiv_pdf": "https://arxiv.org/pdf/2605.03823"
+  },
+  "sha256": {
+    "contract/metadata.json": "36be0dfac92b31e9ec527c6f3bbba97042eeca813d607a097049625756408290",
+    "contract/live_claims.json": "21332fa631559d8e54b5956489283382b3c5a394d829f09d8e941ce89b6d0f98",
+    "contract/challenge_readme.md": "027f66e6da758c4a0d75fff6c9298e5322dde64d21a97d33e4367e42c3a421c5",
+    "evidence/source/arxiv_source.tar.gz": "fe4b0fd95d2f695bd5475981c439a24fd5d7336dc11e2800e089a9ca1cdc83e4",
+    "evidence/source/arxiv.pdf": "de979b5ad57b35cfc2398a89f36728ea8ae865e62eedae46bfb8fb1c0055853b"
+  }
+}

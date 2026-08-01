@@ -1,0 +1,21 @@
+{
+  "i": 25054,
+  "pid": "65322",
+  "orid": "EmqsPzyNHh",
+  "title": "Realizable Bayes-Consistency for General Metric Losses",
+  "authors": [
+    "Dan Tsir Cohen",
+    "Steve Hanneke",
+    "Aryeh Kontorovich"
+  ],
+  "insts": [],
+  "area": "Theory",
+  "sub": "Learning Theory",
+  "type": "Poster",
+  "spot": false,
+  "or": "https://openreview.net/forum?id=EmqsPzyNHh",
+  "vs": "https://icml.cc/virtual/2026/poster/65322",
+  "arxiv": "2605.03823",
+  "alphaxiv": "2605.03823",
+  "hf": ""
+}
