@@ -10,4 +10,4 @@ GitHub repository: https://github.com/MachineLearning-Nerd/icml26-realizable-bay
 Current phase: claim_1_attempt_1_direct_constructive_toy_complete
 Per-claim state: Claim 1 is a finite source-aligned constructive **toy**; Claims 2-5 not started.
 Publication status: not eligible
-Documentation status: README, claim ledger, branch audit, citation, and thank-you note complete; repository rename pending final publication verification.
+Documentation status: README, claim ledger, branch audit, citation, and thank-you note complete; repository renamed, history normalized, and final API verification in progress.

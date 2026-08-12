@@ -19,8 +19,8 @@
     "4": 0,
     "5": 0
   },
-  "last_checkpoint": "2026-08-01T20:30:38Z",
-  "last_known_git_commit": "5fde460def563a98bd7d77345cf010dd519c7ce6",
+  "last_checkpoint": "2026-08-12T21:33:48Z",
+  "last_known_git_commit": "589b13a520b34055ccf44030a8ab17cca2bcf133",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses",
@@ -37,6 +37,7 @@
     "readme": "complete",
     "branch_audit": "complete",
     "citation_and_thank_you": "complete",
-    "repository_rename": "pending_final_publication_verification"
+    "repository_rename": "complete",
+    "final_publication_verification": "in_progress"
   }
 }
