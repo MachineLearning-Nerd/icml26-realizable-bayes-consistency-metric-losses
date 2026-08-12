@@ -23,7 +23,7 @@
   "last_known_git_commit": "5fde460def563a98bd7d77345cf010dd519c7ce6",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
-  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-EmqsPzyNHh-realizable-bayes-consistency-metric-losses",
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses",
   "claim_1_outcome": {
     "verdict": "toy",
     "scope": "Finite depth-8 source-aligned unbounded-gap Littlestone tree witness under absolute metric loss with a Lipschitz tree-free negative control; not a theorem proof.",
@@ -32,5 +32,11 @@
       "outputs/claim1_unbounded_gap_tree_toy/SHA256SUMS",
       "evidence/claim1_attempt1/tree_theorem_excerpt.tex"
     ]
+  },
+  "documentation": {
+    "readme": "complete",
+    "branch_audit": "complete",
+    "citation_and_thank_you": "complete",
+    "repository_rename": "pending_final_publication_verification"
   }
 }
