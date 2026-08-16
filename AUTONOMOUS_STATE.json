@@ -3,7 +3,7 @@
   "openreview_id": "EmqsPzyNHh",
   "paper": "arXiv:2605.03823",
   "phase": "dossier_published_claim_1_toy_only",
-  "next_action": "advance_claim_2_only_after_scoped_contract_and_evidence_plan",
+  "next_action": "update_collection_tracker_and_continue_with_next_repository",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -15,7 +15,8 @@
     "documented_unverified_claim_boundaries",
     "added_standardized_audit_dossier",
     "verified_remote_repository_state",
-    "verified_fresh_clone_after_dossier_publication"
+    "verified_fresh_clone_after_dossier_publication",
+    "verified_github_metadata_and_branch_inventory"
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
@@ -26,7 +27,8 @@
     "5": 0
   },
   "last_checkpoint": "2026-08-17",
-  "last_known_git_commit": "4857db6ff0b5050056ee2329501cc778d8620bc6",
+  "last_known_git_commit": "3bc1381c33ed9846caae661daec4927958d9c064",
+  "published_dossier_commit": "3bc1381c33ed9846caae661daec4927958d9c064",
   "publication_allowed": true,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses",
