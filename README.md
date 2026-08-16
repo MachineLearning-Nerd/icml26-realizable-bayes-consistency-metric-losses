@@ -12,7 +12,26 @@ This is an independent reproduction/audit repository, not an author-maintained i
 
 **Overall: partial, toy-level evidence only.**
 
+Machine-readable status labels are TOY and UNVERIFIED; neither label claims a
+full theorem reproduction.
+
 Claim 1 has a finite executable toy: a depth-8 source-aligned absolute-metric witness checks all 256 binary paths and a Lipschitz tree-free negative control. It supports the mechanics of the finite construction, not the paper’s infinite theorem or its necessary-and-sufficient characterization. Claims 2–5 have not been independently reproduced.
+
+## Audit dossier
+
+The standardized audit record is split into reviewable files:
+
+- CLAIM_EVIDENCE.md maps each claim to its producer, evidence, status, and limitation.
+- SOURCE_AUDIT.md pins the paper snapshot, contract, theorem anchors, and source-version boundary.
+- BRANCH_AUDIT.md records the final branch map and commit attribution.
+- ENVIRONMENT.md records the fixed local command, checksums, and compute boundary.
+- REPORT.md states the scoped decision and what remains unverified.
+- CITATION.cff and AUTHOR_THANK_YOU.md provide citation and author acknowledgement.
+- EVIDENCE_MANIFEST.json content-addresses the dossier and source/evidence inputs.
+- verify_final.py performs fail-closed checks on a local or fresh clone.
+
+The dossier is a documentation and provenance publication. It does not
+change the Claim 1 toy verdict or imply that Claims 2–5 have been reproduced.
 
 | Paper claim | Repository status | What the evidence supports |
 | --- | --- | --- |

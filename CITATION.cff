@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this audit or its outputs, please cite the original paper and this repository."
+title: "ICML 2026 Realizable Bayes-Consistency Claim Audit"
+version: "1.0.0"
+date-released: 2026-08-17
+authors:
+  - name: MachineLearning-Nerd
+repository-code: "https://github.com/MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses"
+url: "https://github.com/MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses"
+references:
+  - type: article
+    title: "Realizable Bayes-Consistency for General Metric Losses"
+    authors:
+      - given-names: Dan Tsir
+        family-names: Cohen
+      - given-names: Steve
+        family-names: Hanneke
+      - given-names: Aryeh
+        family-names: Kontorovich
+    year: 2026
+    url: "https://arxiv.org/abs/2605.03823"
+    identifiers:
+      - type: arxiv
+        value: "2605.03823"

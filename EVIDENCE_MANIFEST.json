@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses",
+  "paper": {
+    "title": "Realizable Bayes-Consistency for General Metric Losses",
+    "arxiv": "2605.03823",
+    "openreview": "EmqsPzyNHh",
+    "source_pdf_sha256": "de979b5ad57b35cfc2398a89f36728ea8ae865e62eedae46bfb8fb1c0055853b",
+    "source_archive_sha256": "fe4b0fd95d2f695bd5475981c439a24fd5d7336dc11e2800e089a9ca1cdc83e4"
+  },
+  "claim_statuses": {
+    "C1": "TOY",
+    "C2": "UNVERIFIED",
+    "C3": "UNVERIFIED",
+    "C4": "UNVERIFIED",
+    "C5": "UNVERIFIED"
+  },
+  "content_addressed_artifacts": [
+    {
+      "path": "AUTHOR_THANK_YOU.md",
+      "sha256": "62fdebf1c73ca06a776492bbae6c7a523b01fc631a997f6e267c5fdf519f905c"
+    },
+    {
+      "path": "BRANCH_AUDIT.md",
+      "sha256": "eb1fef9b7d29e85aea9848a906a212128ab997683a89bcfd94b6dec59098ab54"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "9ccd4a2fe56319b2a17ce8edde30832cef3f7b89942350fdda798695993510d3"
+    },
+    {
+      "path": "CLAIM_EVIDENCE.md",
+      "sha256": "a939565287c8bbc046d08837eac1fcf6235eb2cb3672a4ca603926f192950ca6"
+    },
+    {
+      "path": "ENVIRONMENT.md",
+      "sha256": "c81532d0bcce844213f058cd8237aedc7d9e604d1f6516da34e399d5f87a04d0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "84e1f24cfcc494bc8eccc0dfeb4f179e82d4340a502d92f66f378aec9583bbc4"
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "63eb2a21857a3bda109febca55c1a575f5ec2459f86f05cabab61b955f7521f2"
+    },
+    {
+      "path": "SOURCE_AUDIT.md",
+      "sha256": "fc1f5dbf61cdf47d1ecddcc35b6bc5ef895cf440ecdde9c24c65a91c5eb8c497"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "75f9783eaf0de199adedd0ef1390091b4cb67cdf666f67c27a0bc6c20e90e849"
+    },
+    {
+      "path": "branch-audit.md",
+      "sha256": "87d5ec91f83375845af610811b94681ff938085b2066bdcc244fd90e023b5c8c"
+    },
+    {
+      "path": "claims.json",
+      "sha256": "e47ed6ea2823fdad7afb7147444a5ba91139c93fdd920e7451f4e4ee03a132f9"
+    },
+    {
+      "path": "contract/challenge_readme.md",
+      "sha256": "027f66e6da758c4a0d75fff6c9298e5322dde64d21a97d33e4367e42c3a421c5"
+    },
+    {
+      "path": "contract/claims_anchored_raw.json",
+      "sha256": "7c0373fbbfb98b5acdc2c0ac122d9d81431bd6b42dda76fa36a91b49ec4b7825"
+    },
+    {
+      "path": "contract/claims_default_raw.json",
+      "sha256": "6f0984c875e7bc9507a9d3cf738621d22db16bc4c244ed7ceab86d60ecd14e01"
+    },
+    {
+      "path": "contract/contract_manifest.json",
+      "sha256": "6a1a5fab1f43c00ed344ab244b842c45279a7baef846115204dfaf231dda4455"
+    },
+    {
+      "path": "contract/live_claims.json",
+      "sha256": "21332fa631559d8e54b5956489283382b3c5a394d829f09d8e941ce89b6d0f98"
+    },
+    {
+      "path": "contract/metadata.json",
+      "sha256": "36be0dfac92b31e9ec527c6f3bbba97042eeca813d607a097049625756408290"
+    },
+    {
+      "path": "evidence/claim1_attempt1/SHA256SUMS",
+      "sha256": "9d32b30750f34db42320d2c0ac9ba90e6dd91712f6546177a0309360f935cc3c"
+    },
+    {
+      "path": "evidence/claim1_attempt1/tree_theorem_excerpt.tex",
+      "sha256": "2a85c4f92d91bd489fb09992d2d12bfab8adb261416d7e77c60bc27c526718b8"
+    },
+    {
+      "path": "evidence/source/SHA256SUMS",
+      "sha256": "0b14e393602e84bbc9bac3f4008596de1d2122aae33d0145f8f912e881d85b3d"
+    },
+    {
+      "path": "evidence/source/arxiv.pdf",
+      "sha256": "de979b5ad57b35cfc2398a89f36728ea8ae865e62eedae46bfb8fb1c0055853b"
+    },
+    {
+      "path": "evidence/source/arxiv_source.tar.gz",
+      "sha256": "fe4b0fd95d2f695bd5475981c439a24fd5d7336dc11e2800e089a9ca1cdc83e4"
+    },
+    {
+      "path": "logbook/claim-1.md",
+      "sha256": "66d523c3287c3c1e2d0fd8257cb3cdc655781bd67ffca1d8cf8cec8bb469f8f2"
+    },
+    {
+      "path": "outputs/claim1_source_audit.json",
+      "sha256": "624cf7a3b6c23f69a87bfa5426fc0fd281ec20917ef07991eabb48c02f32b215"
+    },
+    {
+      "path": "outputs/claim1_unbounded_gap_tree_toy/SHA256SUMS",
+      "sha256": "57c3927b3348baafc6ffec566b42790d9a9d66be42746de33f2022b752b6e2c5"
+    },
+    {
+      "path": "outputs/claim1_unbounded_gap_tree_toy/paths.csv",
+      "sha256": "3f1271cb5d3879a8742a89b286c27409f6eec8c460ea7ce128f8c6f9945613b6"
+    },
+    {
+      "path": "outputs/claim1_unbounded_gap_tree_toy/result.json",
+      "sha256": "ac4c927fc9cbee4fb7ef29a54aab8982c8cb282b4a10860f3f0f53a1e81ab1b9"
+    },
+    {
+      "path": "outputs/claim1_unbounded_gap_tree_toy/run.log",
+      "sha256": "ac4c927fc9cbee4fb7ef29a54aab8982c8cb282b4a10860f3f0f53a1e81ab1b9"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "a0e201ecda2bc871726ea3bb5db9cfe6b2109f60d8da88eecf910b790794b03d"
+    },
+    {
+      "path": "src/claim1_source_audit.py",
+      "sha256": "49e84a72df63465ab4dc293742b95f21ba3e28d580dfbb53163f22f51bc1439a"
+    },
+    {
+      "path": "src/claim1_unbounded_gap_tree_toy.py",
+      "sha256": "7781053647060f6e3ce3fe1b17d33cb94382bf7cc3a675c016c19bbb476613cf"
+    },
+    {
+      "path": "tests/test_claim1_unbounded_gap_tree_toy.py",
+      "sha256": "cbfb23e239316e1e3b389cc41cb33956162d323e362e87944a82d34103e5591a"
+    },
+    {
+      "path": "tests/test_contract.py",
+      "sha256": "7553402daa596e933d97efb80b3ea3d4e0adb65394ae2eaf1e8c1432955d60d1"
+    },
+    {
+      "path": "verify_final.py",
+      "sha256": "630cefb33445acf26236e5794ce9e5b4078053a98858529e958f18ee2fd0b162"
+    }
+  ],
+  "required_audit_files": [
+    "README.md",
+    "STATUS.md",
+    "REPORT.md",
+    "CLAIM_EVIDENCE.md",
+    "SOURCE_AUDIT.md",
+    "BRANCH_AUDIT.md",
+    "ENVIRONMENT.md",
+    "AUTHOR_THANK_YOU.md",
+    "CITATION.cff",
+    "claims.json",
+    "EVIDENCE_MANIFEST.json",
+    "verify_final.py"
+  ],
+  "required_evidence_files": [
+    "contract/challenge_readme.md",
+    "contract/metadata.json",
+    "contract/live_claims.json",
+    "contract/contract_manifest.json",
+    "contract/claims_default_raw.json",
+    "contract/claims_anchored_raw.json",
+    "evidence/source/SHA256SUMS",
+    "evidence/source/arxiv.pdf",
+    "evidence/source/arxiv_source.tar.gz",
+    "evidence/claim1_attempt1/SHA256SUMS",
+    "evidence/claim1_attempt1/tree_theorem_excerpt.tex",
+    "outputs/claim1_source_audit.json",
+    "outputs/claim1_unbounded_gap_tree_toy/result.json",
+    "outputs/claim1_unbounded_gap_tree_toy/paths.csv",
+    "outputs/claim1_unbounded_gap_tree_toy/run.log",
+    "outputs/claim1_unbounded_gap_tree_toy/SHA256SUMS",
+    "src/claim1_source_audit.py",
+    "src/claim1_unbounded_gap_tree_toy.py",
+    "tests/test_claim1_unbounded_gap_tree_toy.py",
+    "tests/test_contract.py",
+    "logbook/claim-1.md",
+    "requirements.txt"
+  ],
+  "required_evidence_directories": [
+    "contract",
+    "evidence/source",
+    "evidence/claim1_attempt1",
+    "outputs/claim1_unbounded_gap_tree_toy",
+    "src",
+    "tests",
+    "logbook"
+  ],
+  "branches": {
+    "expected_final": [
+      "main"
+    ],
+    "historical_remote_branch_count": 1,
+    "legacy_prefixes_removed": [
+      "orx/"
+    ],
+    "evidence_branches_retained": false
+  },
+  "external_evaluation_boundary": {
+    "historical_score": null,
+    "current_score_claim": null,
+    "interpretation": "No external judge score, author implementation, or author endorsement is claimed."
+  },
+  "attribution": {
+    "name": "MachineLearning-Nerd",
+    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com",
+    "author_and_committer_required": true,
+    "co_author_trailers_allowed": false
+  }
+}

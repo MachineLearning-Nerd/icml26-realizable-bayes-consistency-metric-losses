@@ -1,15 +1,21 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "openreview_id": "EmqsPzyNHh",
-  "phase": "claim_1_attempt_1_direct_constructive_toy_complete",
-  "next_action": "independent_review_claim_1_toy_then_advance_claim_2",
+  "paper": "arXiv:2605.03823",
+  "phase": "dossier_published_claim_1_toy_only",
+  "next_action": "advance_claim_2_only_after_scoped_contract_and_evidence_plan",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
     "live_contract_saved",
     "source_archive_and_pdf_pinned",
     "claim_1_attempt_1_source_local_audit",
-    "claim_1_attempt_1_finite_unbounded_gap_tree_constructive_toy"
+    "claim_1_attempt_1_finite_unbounded_gap_tree_constructive_toy",
+    "documented_claim_to_evidence_paths",
+    "documented_unverified_claim_boundaries",
+    "added_standardized_audit_dossier",
+    "verified_remote_repository_state",
+    "verified_fresh_clone_after_dossier_publication"
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
@@ -19,11 +25,23 @@
     "4": 0,
     "5": 0
   },
-  "last_checkpoint": "2026-08-12T21:33:48Z",
-  "last_known_git_commit": "589b13a520b34055ccf44030a8ab17cca2bcf133",
-  "publication_allowed": false,
+  "last_checkpoint": "2026-08-17",
+  "last_known_git_commit": "4857db6ff0b5050056ee2329501cc778d8620bc6",
+  "publication_allowed": true,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses",
+  "former_github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-EmqsPzyNHh-realizable-bayes-consistency-metric-losses",
+  "canonical_branch": "main",
+  "expected_branches": ["main"],
+  "historical_branch_count": 0,
+  "paper_pdf_sha256": "de979b5ad57b35cfc2398a89f36728ea8ae865e62eedae46bfb8fb1c0055853b",
+  "paper_source_archive_sha256": "fe4b0fd95d2f695bd5475981c439a24fd5d7336dc11e2800e089a9ca1cdc83e4",
+  "contract_manifest_sha256": "6a1a5fab1f43c00ed344ab244b842c45279a7baef846115204dfaf231dda4455",
+  "evidence_boundary": "claim_1_finite_depth_8_toy_only; claims_2_to_5_unverified; no_official_implementation_or_external_score",
+  "canonical_identity": {
+    "name": "MachineLearning-Nerd",
+    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com"
+  },
   "claim_1_outcome": {
     "verdict": "toy",
     "scope": "Finite depth-8 source-aligned unbounded-gap Littlestone tree witness under absolute metric loss with a Lipschitz tree-free negative control; not a theorem proof.",
@@ -35,9 +53,21 @@
   },
   "documentation": {
     "readme": "complete",
+    "claim_evidence": "complete",
+    "source_audit": "complete",
     "branch_audit": "complete",
+    "environment": "complete",
+    "report": "complete",
     "citation_and_thank_you": "complete",
+    "manifest_and_verifier": "complete",
     "repository_rename": "complete",
-    "final_publication_verification": "complete"
-  }
+    "final_publication_verification": "complete",
+    "fresh_clone_verification": "complete"
+  },
+  "recovery_bundle": {
+    "path": "/var/folders/zv/3dcsgf5s6kd8sm4xcbsjqp_w0000gn/T/icml-realizable-before-dossier.XXXXXX.H2RnX7aDTg/realizable-before-dossier.bundle",
+    "sha256": "89144026ce5d4fb4c7deadca155db48d15e190d886663f1f5c3ef490fe106615",
+    "verified_complete": true
+  },
+  "canonical_identity_policy": "all reachable commits use MachineLearning-Nerd attribution; no co-author trailers"
 }

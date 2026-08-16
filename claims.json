@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "repository": "MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses",
+  "previous_repository": "MachineLearning-Nerd/icml26-repro-EmqsPzyNHh-realizable-bayes-consistency-metric-losses",
+  "overall_status": "PARTIAL_TOY_ONLY",
+  "paper": {
+    "title": "Realizable Bayes-Consistency for General Metric Losses",
+    "arxiv": "2605.03823",
+    "openreview": "EmqsPzyNHh",
+    "authors": [
+      "Dan Tsir Cohen",
+      "Steve Hanneke",
+      "Aryeh Kontorovich"
+    ],
+    "venue_record": "ICML 2026",
+    "pdf_sha256": "de979b5ad57b35cfc2398a89f36728ea8ae865e62eedae46bfb8fb1c0055853b",
+    "source_archive_sha256": "fe4b0fd95d2f695bd5475981c439a24fd5d7336dc11e2800e089a9ca1cdc83e4",
+    "official_code": null,
+    "official_code_status": "no_author_executable_identified_in_pinned_source_archive"
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "paper_anchor": "Section 4, Theorem 4.5",
+      "status": "TOY",
+      "scope": "Finite depth-8 Appendix Example 1 construction under absolute metric loss",
+      "producer": "src/claim1_unbounded_gap_tree_toy.py::run",
+      "independent_checker": "tests/test_claim1_unbounded_gap_tree_toy.py",
+      "evidence": [
+        "outputs/claim1_source_audit.json",
+        "outputs/claim1_unbounded_gap_tree_toy/result.json",
+        "outputs/claim1_unbounded_gap_tree_toy/paths.csv",
+        "outputs/claim1_unbounded_gap_tree_toy/SHA256SUMS",
+        "evidence/claim1_attempt1/tree_theorem_excerpt.tex"
+      ],
+      "limitation": "Does not establish an infinite tree, compactness, a risk lower bound, or Theorem 4.5."
+    },
+    {
+      "id": "C2",
+      "paper_anchor": "Section 4, Definition 4.1",
+      "status": "UNVERIFIED",
+      "scope": "Infinite non-decreasing-gamma_k Littlestone-tree definition",
+      "producer": null,
+      "independent_checker": null,
+      "evidence": [],
+      "limitation": "No scoped independent definition and quantifier audit is committed."
+    },
+    {
+      "id": "C3",
+      "paper_anchor": "Section 5, Theorem 5.1",
+      "status": "UNVERIFIED",
+      "scope": "Learner-independent lower bound from an infinite tree",
+      "producer": null,
+      "independent_checker": null,
+      "evidence": [],
+      "limitation": "No distributional lower-bound or risk certificate is committed."
+    },
+    {
+      "id": "C4",
+      "paper_anchor": "Section 6, Theorem 6.5",
+      "status": "UNVERIFIED",
+      "scope": "Explicit distribution-free learner and almost-sure consistency",
+      "producer": null,
+      "independent_checker": null,
+      "evidence": [],
+      "limitation": "No learner implementation or measure-theoretic proof audit is committed."
+    },
+    {
+      "id": "C5",
+      "paper_anchor": "Section 3 counterexample",
+      "status": "UNVERIFIED",
+      "scope": "Finite optimal risk is insufficient for general metric losses",
+      "producer": null,
+      "independent_checker": null,
+      "evidence": [],
+      "limitation": "No independent counterexample construction or risk comparison is committed."
+    }
+  ],
+  "attribution": {
+    "name": "MachineLearning-Nerd",
+    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com",
+    "author_and_committer_required": true,
+    "co_author_trailers_allowed": false
+  },
+  "evaluation_boundary": {
+    "historical_judge_score": null,
+    "current_score_claim": null,
+    "forecast": null,
+    "interpretation": "No external judge score, author implementation, or author endorsement is claimed."
+  }
+}
