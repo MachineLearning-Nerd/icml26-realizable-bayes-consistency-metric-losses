@@ -26,9 +26,9 @@
     "4": 0,
     "5": 0
   },
-  "last_checkpoint": "2026-08-17",
-  "last_known_git_commit": "354449a2c9e1bf9f7e4e405e907db63499eab8ae",
-  "published_dossier_commit": "354449a2c9e1bf9f7e4e405e907db63499eab8ae",
+  "last_checkpoint": "2026-08-19",
+  "last_known_git_commit": "b9279c546c91b813786c8f3d2f3ff62288c31c3b",
+  "published_dossier_commit": "b9279c546c91b813786c8f3d2f3ff62288c31c3b",
   "publication_allowed": false,
   "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED",
   "publication_boundary": "PARTIAL_TOY_ONLY_NO_FULL_REPRODUCTION",
@@ -48,7 +48,7 @@
   "canonical_identity": {
     "name": "MachineLearning-Nerd",
     "email": "MachineLearning-Nerd@users.noreply.github.com",
-    "verified_reachable_commits": 10
+    "verified_reachable_commits": 11
   },
   "claim_1_outcome": {
     "verdict": "toy",

@@ -71,7 +71,7 @@
     },
     {
       "path": "AUTONOMOUS_STATE.json",
-      "sha256": "6af13c9de7c1369392912ee3952e64310c925b673b7ea8172454ef2855bc7c12"
+      "sha256": "b33b01733210090d65f14d32640a4c68865d23687fb0e9852864dc7259c943a0"
     },
     {
       "path": "contract/challenge_readme.md",
@@ -163,7 +163,7 @@
     },
     {
       "path": "verify_final.py",
-      "sha256": "8aa8e9fa1ebf5662a215cd2b58d75aaf036a7fcad06d5b95eefc02f9adb624a0"
+      "sha256": "7a32779c29634d42d4c8b1dbc70ad5b069ce62e70e4867e9a11710a36d5d3329"
     }
   ],
   "required_audit_files": [
