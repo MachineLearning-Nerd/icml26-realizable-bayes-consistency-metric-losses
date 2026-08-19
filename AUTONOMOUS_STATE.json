@@ -2,7 +2,7 @@
   "schema_version": 2,
   "openreview_id": "EmqsPzyNHh",
   "paper": "arXiv:2605.03823",
-  "phase": "dossier_published_claim_1_toy_only",
+  "phase": "published_scoped_partial_audit",
   "next_action": "update_collection_tracker_and_continue_with_next_repository",
   "active_run_ids": [],
   "completed_milestones": [
@@ -27,9 +27,14 @@
     "5": 0
   },
   "last_checkpoint": "2026-08-17",
-  "last_known_git_commit": "3bc1381c33ed9846caae661daec4927958d9c064",
-  "published_dossier_commit": "3bc1381c33ed9846caae661daec4927958d9c064",
-  "publication_allowed": true,
+  "last_known_git_commit": "354449a2c9e1bf9f7e4e405e907db63499eab8ae",
+  "published_dossier_commit": "354449a2c9e1bf9f7e4e405e907db63499eab8ae",
+  "publication_allowed": false,
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED",
+  "publication_boundary": "PARTIAL_TOY_ONLY_NO_FULL_REPRODUCTION",
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "branch_count": 1,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses",
   "former_github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-EmqsPzyNHh-realizable-bayes-consistency-metric-losses",
@@ -42,7 +47,8 @@
   "evidence_boundary": "claim_1_finite_depth_8_toy_only; claims_2_to_5_unverified; no_official_implementation_or_external_score",
   "canonical_identity": {
     "name": "MachineLearning-Nerd",
-    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com"
+    "email": "MachineLearning-Nerd@users.noreply.github.com",
+    "verified_reachable_commits": 10
   },
   "claim_1_outcome": {
     "verdict": "toy",
@@ -71,5 +77,21 @@
     "sha256": "89144026ce5d4fb4c7deadca155db48d15e190d886663f1f5c3ef490fe106615",
     "verified_complete": true
   },
+  "dossier_files": [
+    "README.md",
+    "STATUS.md",
+    "REPORT.md",
+    "CLAIM_EVIDENCE.md",
+    "SOURCE_AUDIT.md",
+    "BRANCH_AUDIT.md",
+    "ENVIRONMENT.md",
+    "AUTHOR_THANK_YOU.md",
+    "CITATION.cff",
+    "claims.json",
+    "reproduction_verdicts.json",
+    "EVIDENCE_MANIFEST.json",
+    "verify_final.py",
+    "AUTONOMOUS_STATE.json"
+  ],
   "canonical_identity_policy": "all reachable commits use MachineLearning-Nerd attribution; no co-author trailers"
 }

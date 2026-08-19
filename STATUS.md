@@ -7,9 +7,11 @@ Source paper/version: arXiv:2605.03823
 Official code/data/model pins: no author executable identified in source archive
 Compute policy: local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute
 GitHub repository: https://github.com/MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses
-Current phase: dossier_published_claim_1_toy_only
+Current phase: published_scoped_partial_audit
 Per-claim state: Claim 1 is a finite source-aligned constructive **toy**; Claims 2-5 not started.
+Overall verdict: PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED.
+Publication boundary: publication_allowed=false for a complete reproduction or score; this is a scoped toy-level dossier. score_claim=false and official_author_endorsement=false.
 Publication status: GitHub dossier published; no external judge score or author endorsement claimed.
-Dossier status: README, claim/source/branch/environment/report files, citation, thank-you note, content manifest, and fail-closed verifier published.
+Dossier status: README, claim/source/branch/environment/report files, citation, thank-you note, machine-readable verdicts/state, content manifest, and fail-closed verifier published.
 Evidence boundary: the source archive/PDF, Claim 1 source excerpt, finite toy outputs, checksums, and logbook are committed; Claims 2-5 have no independent evidence.
 Verification status: repository metadata, one-branch topology, canonical attribution, local verifier, and fresh-clone verifier passed.

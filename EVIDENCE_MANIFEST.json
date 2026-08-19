@@ -1,6 +1,11 @@
 {
   "schema_version": 1,
   "repository": "MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses",
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED",
+  "publication_allowed": false,
+  "publication_boundary": "PARTIAL_TOY_ONLY_NO_FULL_REPRODUCTION",
+  "score_claim": false,
+  "official_author_endorsement": false,
   "paper": {
     "title": "Realizable Bayes-Consistency for General Metric Losses",
     "arxiv": "2605.03823",
@@ -38,11 +43,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "84e1f24cfcc494bc8eccc0dfeb4f179e82d4340a502d92f66f378aec9583bbc4"
+      "sha256": "34d4ebd54706d4d263a51d400f69ba3a1c7092448dc40f70beb7bec904e59445"
     },
     {
       "path": "REPORT.md",
-      "sha256": "63eb2a21857a3bda109febca55c1a575f5ec2459f86f05cabab61b955f7521f2"
+      "sha256": "11e812995720b5dc8453357ebf563b27749c814636debfa0a6bec71c0685e20c"
     },
     {
       "path": "SOURCE_AUDIT.md",
@@ -50,7 +55,7 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "75f9783eaf0de199adedd0ef1390091b4cb67cdf666f67c27a0bc6c20e90e849"
+      "sha256": "6b4e143ab25cd5e47febdc344602a675cbcc4e74fff1bfbc77f8a7a143501e18"
     },
     {
       "path": "branch-audit.md",
@@ -58,7 +63,15 @@
     },
     {
       "path": "claims.json",
-      "sha256": "e47ed6ea2823fdad7afb7147444a5ba91139c93fdd920e7451f4e4ee03a132f9"
+      "sha256": "29c93cfa3403e00389d10f4a0bd58bb3b4dcdeff8975e9c8bb25027429159142"
+    },
+    {
+      "path": "reproduction_verdicts.json",
+      "sha256": "8817a8db7ba6bd49b0672345c7ab47a84444770a5eed0e0cf7f64b423f8ab5f9"
+    },
+    {
+      "path": "AUTONOMOUS_STATE.json",
+      "sha256": "6af13c9de7c1369392912ee3952e64310c925b673b7ea8172454ef2855bc7c12"
     },
     {
       "path": "contract/challenge_readme.md",
@@ -150,7 +163,7 @@
     },
     {
       "path": "verify_final.py",
-      "sha256": "630cefb33445acf26236e5794ce9e5b4078053a98858529e958f18ee2fd0b162"
+      "sha256": "8aa8e9fa1ebf5662a215cd2b58d75aaf036a7fcad06d5b95eefc02f9adb624a0"
     }
   ],
   "required_audit_files": [
@@ -164,6 +177,8 @@
     "AUTHOR_THANK_YOU.md",
     "CITATION.cff",
     "claims.json",
+    "reproduction_verdicts.json",
+    "AUTONOMOUS_STATE.json",
     "EVIDENCE_MANIFEST.json",
     "verify_final.py"
   ],
@@ -217,7 +232,7 @@
   },
   "attribution": {
     "name": "MachineLearning-Nerd",
-    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com",
+    "email": "MachineLearning-Nerd@users.noreply.github.com",
     "author_and_committer_required": true,
     "co_author_trailers_allowed": false
   }

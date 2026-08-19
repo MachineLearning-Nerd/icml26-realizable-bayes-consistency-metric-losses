@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-realizable-bayes-consistency-metric-losses",
+  "paper": {
+    "title": "Realizable Bayes-Consistency for General Metric Losses",
+    "authors": [
+      "Dan Tsir Cohen",
+      "Steve Hanneke",
+      "Aryeh Kontorovich"
+    ],
+    "arxiv": "2605.03823",
+    "openreview_id": "EmqsPzyNHh"
+  },
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED",
+  "publication_allowed": false,
+  "publication_boundary": "PARTIAL_TOY_ONLY_NO_FULL_REPRODUCTION",
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "claims": [
+    {
+      "id": "C1",
+      "status": "TOY",
+      "status_detail": "FINITE_DEPTH_8_CONSTRUCTIVE_TOY_ONLY",
+      "production_path": [
+        "src/claim1_source_audit.py::run",
+        "src/claim1_unbounded_gap_tree_toy.py::run",
+        "tests/test_claim1_unbounded_gap_tree_toy.py"
+      ],
+      "claim_boundary": "All 256 finite depth-8 paths are exactly realizable in the source-aligned construction, with a Lipschitz tree-free negative control; this is not an infinite-tree theorem proof.",
+      "evidence": [
+        "outputs/claim1_source_audit.json",
+        "outputs/claim1_unbounded_gap_tree_toy/result.json",
+        "outputs/claim1_unbounded_gap_tree_toy/paths.csv",
+        "outputs/claim1_unbounded_gap_tree_toy/SHA256SUMS",
+        "evidence/claim1_attempt1/tree_theorem_excerpt.tex"
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "UNVERIFIED",
+      "status_detail": "NO_INDEPENDENT_AUDIT_COMMITTED",
+      "production_path": null,
+      "claim_boundary": "The infinite non-decreasing-gamma_k Littlestone-tree definition and its quantifiers still need an independent audit.",
+      "evidence": []
+    },
+    {
+      "id": "C3",
+      "status": "UNVERIFIED",
+      "status_detail": "NO_INDEPENDENT_AUDIT_COMMITTED",
+      "production_path": null,
+      "claim_boundary": "The learner-independent lower-bound construction and risk certificate still need an independent audit.",
+      "evidence": []
+    },
+    {
+      "id": "C4",
+      "status": "UNVERIFIED",
+      "status_detail": "NO_INDEPENDENT_AUDIT_COMMITTED",
+      "production_path": null,
+      "claim_boundary": "The explicit distribution-free learner and almost-sure consistency argument still need an independent audit.",
+      "evidence": []
+    },
+    {
+      "id": "C5",
+      "status": "UNVERIFIED",
+      "status_detail": "NO_INDEPENDENT_AUDIT_COMMITTED",
+      "production_path": null,
+      "claim_boundary": "The finite-optimal-risk counterexample still needs an independent construction and risk comparison.",
+      "evidence": []
+    }
+  ]
+}
